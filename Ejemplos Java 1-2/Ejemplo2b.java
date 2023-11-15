@@ -10,7 +10,7 @@ public class Ejemplo2b {
           InputStream is = p.getInputStream();
           BufferedReader br = new BufferedReader (new InputStreamReader (is));                      
           String linea;
-		  while((linea = br.readLine())!=null) //lee una línea del fichero 
+		  while((linea = br.readLine())!=null) //lee una linea del fichero 
               System.out.println(linea); 
 		  br.close();
         } 
